@@ -1,5 +1,70 @@
+/*Header */
+.logo-header{
+    width: 25%;
+    text-align:center;
+margin:auto;
+display:flex;
+}
 
+.pageHead {
+    display: grid;
+    grid-template-rows: 32% 12% 20% 15% 30%;
+   background-color: #F6F6F6;
+}
+.pageHead__logo {
+grid-row-start: 1;
+
+background-color:#FFFFFF;
+}
+.pageHead__search__bande{
+    grid-row-start:2;
+   
+}
+.pageHead__search{
+  
+    text-align:center;
+    margin:auto;
+    background-color:#eaeaea;
+}
+.pageHead__h1{
+    grid-row-start:3;
+    text-align:center;
+    margin:auto;
+    overflow: hidden;
+    font-size: 147%;
+}
+.pageHead__h2{
+    grid-row-start:4;
+    text-align:center;
+    margin:auto;
+    overflow: hidden;
+    font-size: 120%;
+  
+}
+.pageHead__button{
+    grid-row-start:5;
+    text-align:center;
+    margin:auto;
+    background-color: #9356DC;
+    border-radius: 2rem;
+    border: 0;
+    color: white;
+    font-size: 1.2rem;
+
+
+}
+
+
+
+
+/***********************/
+/*SECTION:FONCTIONNEMENT*/
+
+
+
+/*SECTION:RESTAURANTS*/
 .pictureRestaurant{
     width: 10%;
     height: 10%;
 }
+/*FOOTER*/
