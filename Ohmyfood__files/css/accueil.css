@@ -1,0 +1,135 @@
+/*Header */
+.logo-header{
+    width: 25%;
+    text-align:center;
+margin:auto;
+display:flex;
+}
+
+.pageHead {
+    display: grid;
+    grid-template-rows: 32% 12% 20% 15% 30%;
+   background-color: #F6F6F6;
+}
+.pageHead__logo {
+grid-row-start: 1;
+
+background-color:#FFFFFF;
+}
+.pageHead__search__bande{
+    grid-row-start:2;
+   
+}
+.pageHead__search{
+  
+    text-align:center;
+    margin:auto;
+    background-color:#eaeaea;
+}
+.pageHead__h1{
+    grid-row-start:3;
+    text-align:center;
+    margin:auto;
+    overflow: hidden;
+    font-size: 147%;
+}
+.pageHead__h2{
+    grid-row-start:4;
+    text-align:center;
+    margin:auto;
+    overflow: hidden;
+    font-size: 120%;
+  
+}
+.pageHead__button{
+    grid-row-start:5;
+    text-align:center;
+    margin:auto;
+    background-color: #9356DC;
+    border-radius: 2rem;
+    border: 0;
+    color: white;
+    font-size: 1.2rem;
+
+
+}
+
+
+
+
+/***********************/
+/*SECTION:FONCTIONNEMENT*/
+.pagefonctionnement{
+    display: grid;
+    grid-template-rows: 10% 30% 30% 30%;
+}
+.pagefonctionnement__h1{
+  
+grid-row-start: 1;
+margin:0;
+}
+.pagefonctionnement__button1{
+    
+    grid-row-start: 2;
+    text-align: center;
+    padding: 3%;
+  
+    
+    
+}
+.pagefonctionnement__button2{
+    
+    grid-row-start: 3;
+    text-align: center;
+    padding: 3%;
+    
+}
+.pagefonctionnement__button3{
+   
+    grid-row-start: 4;
+    text-align: center;
+    padding: 3%;
+}
+.pagefonctionnement__buttonStyle{
+   width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    border: 0;
+    color:black;
+    font-size:100%;
+    padding:2%;
+}
+.pagefonctionnement--titleButton{
+    padding-left:1%;
+}
+
+
+/*SECTION:RESTAURANTS*/
+.pictureRestaurant{
+    width: 10%;
+    height: 10%;
+}
+/*FOOTER*/
+.pageFooter{
+grid:css;
+grid-template-rows: 20% 20% 20% 20% 20%;
+
+}
+.pageFooter__picture{
+    grid-row-start:1;
+
+    background-color: darkblue;
+    width: 18%;
+}
+.pageFooter__sentence1{
+    grid-row-start:2;
+}
+.pageFooter__sentence1{
+    grid-row-start:3;
+}
+.pageFooter__h2--1{
+    grid-row-start:4;
+}
+.pageFooter__h2--2{
+    grid-row-start:5;
+}
