@@ -59,7 +59,49 @@ background-color:#FFFFFF;
 
 /***********************/
 /*SECTION:FONCTIONNEMENT*/
-
+.pagefonctionnement{
+    display: grid;
+    grid-template-rows: 10% 30% 30% 30%;
+}
+.pagefonctionnement__h1{
+  
+grid-row-start: 1;
+margin:0;
+}
+.pagefonctionnement__button1{
+    
+    grid-row-start: 2;
+    text-align: center;
+    padding: 3%;
+  
+    
+    
+}
+.pagefonctionnement__button2{
+    
+    grid-row-start: 3;
+    text-align: center;
+    padding: 3%;
+    
+}
+.pagefonctionnement__button3{
+   
+    grid-row-start: 4;
+    text-align: center;
+    padding: 3%;
+}
+.pagefonctionnement__buttonStyle{
+   width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    border: 0;
+    color:black;
+    font-size:100%;
+    padding:2%;
+}
+.pagefonctionnement--titleButton{
+    padding-left:1%;
+}
 
 
 /*SECTION:RESTAURANTS*/
