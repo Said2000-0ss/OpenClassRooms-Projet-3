@@ -105,8 +105,58 @@ margin:0;
 
 
 /*SECTION:RESTAURANTS*/
-.pictureRestaurant{
-    width: 10%;
-    height: 10%;
+.pagerestaurants{
+    display: grid;
+    grid-template-rows: 5% 23.5% 23.5% 23.5% 24.5%;
+    background-color: black;
+}
+
+.pagerestaurants__h1{
+    grid-row-start:1;
+    margin: 0;
+background-color: brown;
+}
+.pagerestaurants__div1{
+    grid-row-start:2;
+    background-color: blue;
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 2%;
+}
+
+.pagerestaurants__div2
+{
+    grid-row-start:3;
+    background-color: yellow;
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 2%;
+}
+.pagerestaurants__div3{
+    grid-row-start:4;
+    background-color: red;
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 2%;
+}
+.pagerestaurants__div4{
+    grid-row-start:5;
+    background-color: cyan;
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 2%;
+}
+
+
+
+.pagerestaurants__pictures{
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 2% ;
+    border-top-right-radius: 2%;
 }
 /*FOOTER*/
