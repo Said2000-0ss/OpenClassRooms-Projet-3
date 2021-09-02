@@ -161,25 +161,26 @@ background-color: brown;
 }
 /*FOOTER*/
 .pageFooter{
-grid:css;
-grid-template-rows: 20% 20% 20% 20% 20%;
-
-}
-.pageFooter__picture{
-    grid-row-start:1;
-
-    background-color: darkblue;
-    width: 18%;
-}
-.pageFooter__sentence1{
-    grid-row-start:2;
-}
-.pageFooter__sentence1{
-    grid-row-start:3;
-}
-.pageFooter__h2--1{
-    grid-row-start:4;
-}
-.pageFooter__h2--2{
-    grid-row-start:5;
-}
+    grid:css;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    background-color: grey;
+    
+    }
+    .pageFooter__picture{
+        grid-row-start:1;
+    
+        background-color: darkblue;
+        width: 18%;
+    }
+    .pageFooter__sentence1{
+        grid-row-start:2;
+    }
+    .pageFooter__sentence1{
+        grid-row-start:3;
+    }
+    .pageFooter__h2--1{
+        grid-row-start:4;
+    }
+    .pageFooter__h2--2{
+        grid-row-start:5;
+    }
