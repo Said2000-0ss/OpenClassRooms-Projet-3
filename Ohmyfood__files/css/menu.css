@@ -32,7 +32,7 @@ grid-template-columns: 20% 80%;
 .pageHead__div3{
     grid-row-start: 3;
     display: grid;
-grid-template-columns:  54% 20%;
+grid-template-columns:  54% 16%;
 
 }
 .pageHead__div3--h1{
@@ -41,6 +41,7 @@ grid-template-columns:  54% 20%;
     margin:0;
    
     font-size: 2.1em;
+    border-top-left-radius: 19%;
 }
 .pageHead__div3--heart{
     grid-column-start: 2;
@@ -48,9 +49,34 @@ grid-template-columns:  54% 20%;
     background-color: coral;
     padding-top: 12%;
     padding-left: 14%;
+    border-top-right-radius: 19%;
 
 }
 .pageHead__div2--picture{
   width: 60%;
   height: 100%;
+}
+
+.pageentrees{
+    display:grid;
+    grid-template-rows: 10% 30% 30% 30%;
+}
+.pageentrees__h2{
+grid-row-start: 1;
+background-color: cyan;
+}
+.pageentrees__div1{
+    grid-row-start: 2;  
+    background-color:red;
+   
+
+}
+.pageentrees__div2{
+    grid-row-start:3; 
+    background-color:brown;
+
+}
+.pageentrees__div3{
+    grid-row-start: 4;
+    background-color: darkblue;
 }
