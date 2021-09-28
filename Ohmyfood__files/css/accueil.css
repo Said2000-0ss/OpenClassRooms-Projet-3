@@ -188,6 +188,7 @@ font-size: 1.3rem;
     grid-template-columns: 100%;
     background-color: #F6F6F6;
     margin-top: 20%;
+    
 }
 
 #pagerestaurants__title{
@@ -196,6 +197,7 @@ font-size: 1.3rem;
     background-color: #F6F6F6;
     padding-top: 9%;
     padding-left: 5%;
+    font-size: 126%;
 /*background-color: brown;*/
 }
 .pagerestaurants__grid{
