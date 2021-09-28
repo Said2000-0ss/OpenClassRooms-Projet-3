@@ -1,0 +1,12 @@
+.fa-heart::before {
+    content: "\f004";
+   
+    transition: color 1s ease-out;
+}
+.fa-heart:hover{
+    font-weight: bold;
+}
+.fa-heart:hover::before{
+    color: #9356DC;
+    cursor: pointer;
+}
