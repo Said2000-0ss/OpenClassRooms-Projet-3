@@ -114,6 +114,7 @@ grid-row-start: 1;
 grid-column-start: 1;
 margin:0;
 padding-left: 3%;
+font-size: 2.2rem;
 }
 #pagefonctionnement__button1{
     display: grid;
@@ -149,7 +150,7 @@ padding-left: 3%;
     border-radius: 2rem;
     border: 0;
     color: black;
-    font-size: 100%;
+    font-size: 160%;
     padding: 2%;
     margin-left: -7%;
 }
@@ -162,6 +163,7 @@ padding-left: 3%;
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
+    padding-top: 16%;
 }
 #pagefonctionnement__buttonStyle--circle1{
     color: #fff;
@@ -172,6 +174,7 @@ padding-left: 3%;
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
+    padding-top: 9%;
 }
 
 
