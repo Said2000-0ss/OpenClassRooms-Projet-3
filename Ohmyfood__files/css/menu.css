@@ -31,6 +31,7 @@ grid-template-columns: 20% 80%;
     /* background-color: chartreuse; */
     padding-top: 31%;
     padding-left: 40%;
+    color: black;
 }
 .pageHead__div1--logo{
     grid-column-start: 2;
@@ -39,22 +40,23 @@ grid-template-columns: 20% 80%;
 }
 .pageHead__div2{
     grid-row-start: 2;
+    margin-top: 3%;
    
 }   
 .pageHead__div3{
     grid-row-start: 3;
     display: grid;
     grid-template-columns: 83% 17%;
-    margin-top: -14%;
+
 
 }
 .pageHead__div3--h1{
     grid-column-start: 1;
     background-color: #F6F6F6;
     margin: 0;
-    font-size: 1.8em;
+    font-size: 1.6em;
     border-top-left-radius: 3rem;
-    padding-top: 6%;
+    padding-top: 8%;
     padding-left: 6%;
     font-family: Shrikhand,sans-serif;
 }
@@ -70,31 +72,32 @@ grid-template-columns: 20% 80%;
 }
 .pageHead__div2--picture{
     width: 100%;
-  height: 100%;
+    height: 130%;
 }
 
 .pageentrees{
     display:grid;
     grid-template-rows: 18% 30% 30% 30%;
     background-color: #F6F6F6;
-    margin-top: -50%;
+    margin-top: -21%;
 }
 .pageentrees__h2{
-grid-row-start: 1;
-grid-column-start: 1;
-
-height: 100%;
-margin: 0;
-display:grid;
-grid-template-rows: 100%;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    height: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 100%;
+    font-size: 1rem;
+    padding-left: 2%;
 }
 .pageentrees__h2--underline {
     grid-row-start: 1;
     grid-column-start: 1;
     width: 2.5rem;
     border-top: 3px solid #99e2d0;
-
-    margin: 2rem 0 0 0;
+    margin: 1.4rem 0 0 2%;
+    
 }
 .pageentrees__div1{
     grid-row-start: 2;  
@@ -147,7 +150,8 @@ grid-column-start: 2;
     grid-column-start: 1;
     font-size: 1rem;
     margin: 0;
-    margin-top: 6%;
+    margin-top: 0%;
+    padding-top: 3%;
     margin-left: 3%;
     }
     .pageentrees__h4{
@@ -168,25 +172,26 @@ grid-column-start: 2;
     }
 /***************************************************************************/
 .pageplats{
-    display:grid;
-    grid-template-rows: 23% 30% 30% 30%;
+    display: grid;
+    grid-template-rows: 24% 28% 28% 28%;
     background-color: #F6F6F6;
+    padding-top: 5%;
 }
 .pageplats__h2{
-   
     grid-row-start: 1;
     grid-column-start: 1;
     height: 100%;
     margin: 0;
-    margin-top: 6%;
+    margin-top: 9%;
+    font-size: 1rem;
+    padding-left: 2%;
 }
 .pageplats__h2--underline {
     grid-row-start: 1;
     grid-column-start: 1;
     width: 2.5rem;
     border-top: 3px solid #99e2d0;
-
-    margin: 3.2rem 0 0 0;
+    margin: 3.1rem 0 0 2%;
 }
 .pageplats__div1{
     grid-row-start: 2;  
@@ -232,7 +237,8 @@ padding-left: 51%;
     grid-column-start: 1;
     font-size: 1rem;
     margin: 0;
-    margin-top: 6%;
+    margin-top: 0%;
+    padding-top: 3%;
     margin-left: 3%;
     }
     .pageplats__h4{
@@ -273,17 +279,18 @@ padding-left: 51%;
 
  /*****************************************************************/   
  .pagedesserts{
-    display:grid;
-    grid-template-rows: 24% 30% 30% 30%;
+    display: grid;
+    grid-template-rows: 19% 28% 28% 28%;
     background-color: #F6F6F6;
-    margin-top: 10%;
+    padding-top: 15%;
 }
 .pagedesserts__h2{
     grid-row-start: 1;
     grid-column-start: 1;
 
 height: 100%;
-margin: 0;
+font-size: 1rem;
+    padding-left: 2%;
 }
 .pagedesserts__h2--underline {
     grid-row-start: 1;
@@ -291,7 +298,7 @@ margin: 0;
     width: 2.5rem;
     border-top: 3px solid #99e2d0;
 
-    margin: 2rem 0 0 0;
+    margin: 2.1rem 0 0 2%;
 }
 .pagedesserts__div1{
     grid-row-start: 2;  
@@ -368,28 +375,30 @@ padding-left: 51%;
     text-align: center;
     padding: 3%;
     background-color: #F6F6F6;
-    margin-top: 11%;
+    margin-top: 0%;
+    height: 150px;
   
     
     
 }
 .pagebutton__buttonStyle{
-    width: 41%;
-     height: 100%;
-     border-radius: 2rem;
-     border: 0;
-     color:white;
-     font-size:100%;
-     padding:2%;
-     background-color: #FF79DA;
-     margin-top: 2%;
+    width: 55%;
+    height: 29%;
+    border-radius: 2rem;
+    border: 0;
+    color: white;
+    font-size: 88%;
+    padding: 1%;
+    background-color: #FF79DA;
+    margin-top: 15%;
     margin-bottom: 6%;
+    position: relative;
  }
 
  #pageFooter{
     display:grid;
-    grid-template-rows: 20% 20% 20% 20% 20%;
-    background-color:black;
+    grid-template-rows: 27% 20% 16% 13% 23%;
+    background-color: black;
     padding: 5%;
     
     }
@@ -398,14 +407,19 @@ padding-left: 51%;
         grid-row-start:1;
         color:white; 
         font-family: Shrikhand;
-        font-family: Shrikhand;
+       
        
         font-size: 0.9em;
     }
     #pageFooter__sentence1{
-        grid-row-start:2;
-        color:white;
+        grid-row-start: 2;
+        color: white;
         margin-top: 1%;
+        padding-top: 2%;
+    }
+    .pageFooter--span1{
+        padding-left:2%;
+        font-size: 0.8rem;
     }
     .pageFooter--span{
         padding-left: 4%;
@@ -414,22 +428,23 @@ padding-left: 51%;
     #pageFooter__sentence2{
         grid-row-start:3;
         color:white;
-        margin-top: 1%;
+        margin-top: 0%;
     }
     #pageFooter__h2--1{
         grid-row-start:4;
         color:white;
         font-size: 0.8rem;
-        margin-top: 1%;
+        margin-top: 0%;
     }
     #pageFooter__h2--2{
         grid-row-start:5;
         color:white;
         font-size: 0.8rem;
-        margin-top: 1%;
+        margin-top: 0%;
     }
 
 
 
     /*********************************************/
   
+   
