@@ -8,56 +8,64 @@
     <link rel="stylesheet" href="./Ohmyfood__files/css/accueil.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-        <link rel="stylesheet" href="./Ohmyfood__files/css/accueil.css">
+     <!-- <link rel="stylesheet" href="./Ohmyfood__files/css/said.css"> 
+         <link rel="stylesheet" media="screen and (max-width: 1008px)" href="./Ohmyfood__files/css/accueil.css" /> -->
+         
 </head>
 <body>
-    <header class="pageHead">
-    <div class="pageHead__logo"><img class="logo-header" src="./Ohmyfood__files/Pictures/ohmyfood.png" alt="LogoRestaurant"></div>
-    <div class="pageHead__search__bande"> <div class="pageHead__search"><i class="fas fa-map-marker-alt"></i>
-    <span class="pageHead__text">Paris,Belleville</span></div></div>
-   <h1 class="pageHead__h1">Réservez le menu qui vous convient</h1>
-   <h2 class="pageHead__h2">Découvrez des restaurants d'exception, séléctionnés par nos soins.</h2>
-   <button class="pageHead__button">Explorer nos restaurants</button>
+    <header id="pageHead">
+    <div id="pageHead__logo"><img id="logo-header" src="./Ohmyfood__files/Pictures/ohmyfood.png" alt="LogoRestaurant"></div>
+    <div id="pageHead__search__bande"> <div id="pageHead__search"><i class="fas fa-map-marker-alt"></i>
+    <span id="pageHead__text">Paris,Belleville</span></div></div>
+   <h1 id="pageHead__title">Réservez le menu qui vous convient</h1>
+   <h2 id="pageHead__texte">Découvrez des restaurants d'exception, séléctionnés par nos soins.</h2>
+   <button id="pageHead__button">Explorer nos restaurants</button>
 </header>
-<section class="pagefonctionnement">
-    <h1 class="pagefonctionnement__h1">Fonctionnement</h1>
-    <div class="pagefonctionnement__button1"><button class="pagefonctionnement__buttonStyle" ><i class="fas fa-mobile-alt"></i><span class="pagefonctionnement--titleButton"> un restaurant</span></button></div>
-    <div class="pagefonctionnement__button2"><button class="pagefonctionnement__buttonStyle" ><i class="fas fa-list-ul"></i><span class="pagefonctionnement--titleButton">Composez votre menu</span></button></div>
-    <div class="pagefonctionnement__button3"><button class="pagefonctionnement__buttonStyle"><i class="fas fa-store"></i><span class="pagefonctionnement--titleButton"></span>Dégustez au restaurant</span></button></div>
+<section id="pagefonctionnement">
+    <h1 id="pagefonctionnement__title">Fonctionnement</h1>
+    <div id="pagefonctionnement__button1"><button class="pagefonctionnement__buttonStyle" >
+        <span class="pagefonctionnement__buttonStyle--circle">1</span><i class="fas fa-mobile-alt"></i><span class="pagefonctionnement--titleButton">Choisissez un restaurant</span></button></div>
+    <div id="pagefonctionnement__button2"><button class="pagefonctionnement__buttonStyle" >
+        <span id="pagefonctionnement__buttonStyle--circle1">2</span><i class="fas fa-list-ul"></i><span class="pagefonctionnement--titleButton">Composez votre menu</span></button></div>
+    <div id="pagefonctionnement__button3"><button class="pagefonctionnement__buttonStyle">
+        <span class="pagefonctionnement__buttonStyle--circle">3</span><i class="fas fa-store"></i><span class="pagefonctionnement--titleButton"></span>Dégustez au restaurant</span></button></div>
 </section>
-<section class="pagerestaurants">
-    <h1 class="pagerestaurants__h1">Restaurants</h1>
-    <div class="pagerestaurants__div1">
+<section id="pagerestaurants">
+    <h1 id="pagerestaurants__title">Restaurants</h1>
+    <div id="pagerestaurants__div1">
+        <div class="pagerestaurants__card--tag">Nouveau</div>
         <img class="pagerestaurants__pictures" src="./Ohmyfood__files/Pictures/1.jpg" alt="Picture Restaurant">
-        <h2 class="pagerestaurants__h2" >La palette du gôut</h2>
+        <div class="pagerestaurants__grid"><h2 class="pagerestaurants__h2" >La palette du gôut</h2>
         <span class="pagerestaurants__span">Ménilmontant</span>
-        <div class="pagerestaurants__heart"><i class="far fa-heart"></i></div>
+        <div class="pagerestaurants__heart"><i class="far fa-heart"></i></div></div>
     </div>
-    <div class="pagerestaurants__div2">
+    <div id="pagerestaurants__div2">
+        <div class="pagerestaurants__card--tag">Nouveau</div>
      <img class="pagerestaurants__pictures"src="./Ohmyfood__files/Pictures/2.jpg" alt="Picture Restaurant">
-     <h2 class="pagerestaurants__h2">La note enchantée</h2>
+     <div class="pagerestaurants__grid"><h2 class="pagerestaurants__h2">La note enchantée</h2>
      <span class="pagerestaurants__span">Charonne</span>
-     <div class="pagerestaurants__heart"><i class="far fa-heart"></i></div>
+     <div class="pagerestaurants__heart"><i class="far fa-heart"></i></div></div>
  </div>
- <div class="pagerestaurants__div3">
+ <div id="pagerestaurants__div3">
      <img class="pagerestaurants__pictures" src="./Ohmyfood__files/Pictures/3.jpg" alt="Picture Restaurant">
-     <h2 class="pagerestaurants__h2">A la française</h2>
+     <div class="pagerestaurants__grid"><h2 class="pagerestaurants__h2">A la française</h2>
      <span class="pagerestaurants__span">Cité Rouge</span>
-     <div class="pagerestaurants__heart"><i class="far fa-heart"></i></div>
+     <div class="pagerestaurants__heart"><i class="far fa-heart"></i></div></div>
  </div>
- <div class="pagerestaurants__div4">
+ <div id="pagerestaurants__div4">
      <img class="pagerestaurants__pictures" src="./Ohmyfood__files/Pictures/4.jpg" alt="Picture Restaurant">
-     <h2 class="pagerestaurants__h2">Le délice des sens</h2>
+     <div class="pagerestaurants__grid"><h2 class="pagerestaurants__h2">Le délice des sens</h2>
      <span class="pagerestaurants__span">Folie-Méricourt</span>
-     <div class="pagerestaurants__heart"><i class="far fa-heart"></i></div>
+     <div class="pagerestaurants__heart"><i class="far fa-heart"></i></div></div>
  </div>
 </section>
-<footer class="pageFooter">
-    <img class="pageFooter__picture" src="./Ohmyfood__files/Pictures/ohmyfood.png" alt="LogoRestaurant">
-    <div class="pageFooter__sentence1"><i class="fas fa-utensils whiteicon"></i><span class="pageFooter--span">Proposer un restaurant</span></div>
-    <div class="pageFooter__sentence2"><i class="fas fa-hands-helping whiteicon"></i><span class="pageFooter--span">Devenir partenaire</span></div>
-    <h2 class="pageFooter__h2 pageFooter__h2--1">Mentions légales</h2>
-    <h2 class="pageFooter__h2 pageFooter__h2--1">Contact</h2>
+<footer id="pageFooter">
+    
+    <h2 id="pageFooter__h2_title" >ohmyfood</h2>
+    <div id="pageFooter__sentence1"><i class="fas fa-utensils whiteicon"></i><span class="pageFooter--span">Proposer un restaurant</span></div>
+    <div id="pageFooter__sentence2"><i class="fas fa-hands-helping whiteicon"></i><span class="pageFooter--span">Devenir partenaire</span></div>
+    <h2 class="pageFooter__h2" id="pageFooter__h2--1">Mentions légales</h2>
+    <h2 class="pageFooter__h2" id="pageFooter__h2--2">Contact</h2>
 </footer>
 
 

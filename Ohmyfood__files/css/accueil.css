@@ -1,55 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    /* THE FONT IS RALEWAY. */
+    font-family: "roboto",sans-serif;
+    }
+
 /*Header */
-.logo-header{
-    width: 25%;
-    text-align:center;
-margin:auto;
-display:flex;
+
+h2{
+    margin:0;
+    
+}
+#logo-header{
+    width: 50%;
+  
+    text-align: center;
+    margin: auto;
+    margin-bottom: 0%;
+    padding-bottom: 28%;
+    display: flex;
+ 
 }
 
-.pageHead {
+#pageHead {
     display: grid;
-    grid-template-rows: 32% 12% 20% 15% 30%;
+        grid-template-rows: 10% 10% 30% 20% 30%;
    background-color: #F6F6F6;
 }
-.pageHead__logo {
+#pageHead__logo {
+    padding-bottom: 5%;
 grid-row-start: 1;
 
 background-color:#FFFFFF;
 }
-.pageHead__search__bande{
+#pageHead__search__bande{
     grid-row-start:2;
    
 }
-.pageHead__search{
+#pageHead__search{
   
-    text-align:center;
-    margin:auto;
-    background-color:#eaeaea;
+    text-align: center;
+    margin: auto;
+    background-color: #eaeaea;
+    padding-top: 2%;
+    padding-bottom: 3%;
 }
-.pageHead__h1{
-    grid-row-start:3;
-    text-align:center;
-    margin:auto;
-    overflow: hidden;
-    font-size: 147%;
+#pageHead__text{
+    padding-left:4%;
 }
-.pageHead__h2{
-    grid-row-start:4;
-    text-align:center;
-    margin:auto;
+#pageHead__title{
+    grid-row-start: 3;
+    text-align: center;
+    margin: auto;
     overflow: hidden;
-    font-size: 120%;
+   
+    padding: 6%;
+    font-size: 1.7rem;
+}
+#pageHead__texte{
+    grid-row-start: 4;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    font-size: 94%;
   
 }
-.pageHead__button{
-    grid-row-start:5;
-    text-align:center;
-    margin:auto;
+#pageHead__button{
+    grid-row-start: 5;
+    text-align: center;
+    margin: auto;
     background-color: #9356DC;
     border-radius: 2rem;
     border: 0;
     color: white;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
 
 
 }
@@ -59,34 +87,41 @@ background-color:#FFFFFF;
 
 /***********************/
 /*SECTION:FONCTIONNEMENT*/
-.pagefonctionnement{
+#pagefonctionnement{
+    margin-top: 7%;
     display: grid;
-    grid-template-rows: 10% 30% 30% 30%;
+    grid-template-rows: 27% 30% 30% 30%;
+    grid-template-columns: 100%;
 }
-.pagefonctionnement__h1{
+#pagefonctionnement__title{
   
 grid-row-start: 1;
+grid-column-start: 1;
 margin:0;
+padding-left: 3%;
 }
-.pagefonctionnement__button1{
+#pagefonctionnement__button1{
     
     grid-row-start: 2;
+    grid-column-start: 1;
     text-align: center;
     padding: 3%;
   
     
     
 }
-.pagefonctionnement__button2{
+#pagefonctionnement__button2{
     
     grid-row-start: 3;
+    grid-column-start: 1;
     text-align: center;
     padding: 3%;
     
 }
-.pagefonctionnement__button3{
+#pagefonctionnement__button3{
    
     grid-row-start: 4;
+    grid-column-start: 1;
     text-align: center;
     padding: 3%;
 }
@@ -99,92 +134,164 @@ margin:0;
     font-size:100%;
     padding:2%;
 }
+.pagefonctionnement__buttonStyle--circle{
+    color: #fff;
+    background-color: #9356dc;
+    border: 1px solid #9356dc;
+    border-radius: 50%;
+    padding: 4px 8px 4px 8px;
+    margin: 0px 1.5rem 0 -35px;
+}
+#pagefonctionnement__buttonStyle--circle1{
+    color: #fff;
+    background-color: #9356dc;
+    border: 1px solid #9356dc;
+    border-radius: 50%;
+    padding: 4px 8px 4px 8px;
+    margin: 0px 1.5rem 0 -45px;
+}
 .pagefonctionnement--titleButton{
-    padding-left:1%;
+    padding-left:7%;
 }
 
 
 /*SECTION:RESTAURANTS*/
-.pagerestaurants{
+#pagerestaurants{
     display: grid;
-    grid-template-rows: 5% 23.5% 23.5% 23.5% 24.5%;
-    background-color: black;
+    grid-template-rows: 5% 23.5% 23.5% 23.5% 23.5%;
+    grid-template-columns: 100%;
+    background-color: #F6F6F6;
+    margin-top: 20%;
 }
 
-.pagerestaurants__h1{
+#pagerestaurants__title{
     grid-row-start:1;
     margin: 0;
-background-color: brown;
+    background-color: #F6F6F6;
+    padding-top: 9%;
+    padding-left: 5%;
+/*background-color: brown;*/
 }
-.pagerestaurants__div1{
+.pagerestaurants__grid{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.pagerestaurants__h2{
+    padding-top: 2%;
+    padding-left: 3%;
+    font-size: 1rem;
+    grid-column-start: 1;
+}
+
+.pagerestaurants__span{
+  
+    padding-left: 3%;
+    font-size: 1rem; 
+    grid-column-start: 1;
+}
+.pagerestaurants__heart{
+    grid-row-start: 1;
+    grid-column-start: 2;
+    padding-left: 65%;
+    padding-top: 4px;
+}
+#pagerestaurants__div1{
     grid-row-start:2;
-    background-color: blue;
+    background-color: white;
     width: 90%;
     height: 90%;
     margin: 5%;
-    border-radius: 2%;
+    border-radius: 5%;
+    position: relative;
+    
 }
 
-.pagerestaurants__div2
+#pagerestaurants__div2
 {
     grid-row-start:3;
-    background-color: yellow;
+    grid-column-start: 1;
+    background-color: white;
     width: 90%;
     height: 90%;
     margin: 5%;
-    border-radius: 2%;
+    border-radius: 5%;
+    position: relative;
 }
-.pagerestaurants__div3{
+#pagerestaurants__div3{
     grid-row-start:4;
-    background-color: red;
+    background-color: white;
     width: 90%;
     height: 90%;
     margin: 5%;
-    border-radius: 2%;
+    border-radius: 5%;
 }
-.pagerestaurants__div4{
+#pagerestaurants__div4{
     grid-row-start:5;
-    background-color: cyan;
+    grid-column-start: 1;
+    background-color: white;
     width: 90%;
     height: 90%;
     margin: 5%;
-    border-radius: 2%;
+    border-radius: 5%;
 }
 
-
+.pagerestaurants__card--tag {
+    border-radius: 3px;
+    background-color: #99e2d0;
+    color: #217460;
+    padding: 5px;
+    position: absolute;
+    right: 8px;
+    margin-top: 5px;
+}
 
 .pagerestaurants__pictures{
     width: 100%;
-    height: 50%;
-    border-top-left-radius: 2% ;
-    border-top-right-radius: 2%;
+    height: 150px;
+    border-top-left-radius: 5% ;
+    border-top-right-radius: 5%;
+    object-fit: cover;
 }
 /*FOOTER*/
-.pageFooter{
-    grid:css;
+#pageFooter{
+    display:grid;
     grid-template-rows: 20% 20% 20% 20% 20%;
     background-color:black;
+    padding: 5%;
     
     }
-    .pageFooter__picture{
+  
+    #pageFooter__h2_title{
         grid-row-start:1;
-    
-        background-color: darkblue;
-        width: 18%;
+        color:white; 
+        font-family: Shrikhand;
+        font-family: Shrikhand;
+       
+        font-size: 0.9em;
     }
-    .pageFooter__sentence1{
+    #pageFooter__sentence1{
         grid-row-start:2;
         color:white;
+        margin-top: 1%;
     }
-    .pageFooter__sentence2{
+    .pageFooter--span{
+        padding-left: 4%;
+        font-size: 0.8rem;
+    }
+    #pageFooter__sentence2{
         grid-row-start:3;
         color:white;
+        margin-top: 1%;
     }
-    .pageFooter__h2--1{
+    #pageFooter__h2--1{
         grid-row-start:4;
         color:white;
+        font-size: 0.8rem;
+        margin-top: 1%;
     }
-    .pageFooter__h2--2{
+    #pageFooter__h2--2{
         grid-row-start:5;
         color:white;
+        font-size: 0.8rem;
+        margin-top: 1%;
     }
