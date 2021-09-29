@@ -8,29 +8,29 @@
 /*Header */
 #said{
     display:grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
 }
+
 h2{
     margin:0;
     
 }
 #logo-header{
-    width: 50%;
-    padding-left: 0;
+    width: 82%;
     text-align: center;
-    margin: auto;
+    /* margin: auto; */
     margin-bottom: 0%;
     padding-bottom: 28%;
     display: flex;
+    padding-left: 48%;
  
 }
 
 #pageHead {
-    grid-row-start: 1;
-    grid-column-start: 1;
+    grid-template-columns: 1;
     display: grid;
-    grid-template-rows: 14% 10% 28% 18% 19%;
+    display: grid;
+    grid-template-rows: 20% 9% 25% 18% 26%;
   
 }
 #pageHead__logo {
@@ -109,20 +109,18 @@ background-color:#FFFFFF;
 /*SECTION:FONCTIONNEMENT*/
 #pagefonctionnement{
     grid-template-columns: 2;
-    margin-top: 0%;
     display: grid;
-    grid-template-rows: 11% 20% 20% 20%;
+    grid-template-rows: 10% 22% 22% 22%;
     grid-template-columns: 100%;
-    margin-top: 0%;
-    padding-top: 0%;
+    margin-top: 29%;
 }
 #pagefonctionnement__title{
   
-grid-row-start: 1;
-grid-column-start: 1;
-margin:0;
-padding-left: 3%;
-font-size: 2.2rem;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    margin: 0;
+    padding-left: 7%;
+    font-size: 2.4rem;
 }
 #pagefonctionnement__button1{
     display: grid;
@@ -130,7 +128,7 @@ font-size: 2.2rem;
     grid-row-start: 2;
     grid-column-start: 1;
     text-align: center;
-    padding: 3%;
+    padding: 6%;
   
     
     
@@ -141,7 +139,7 @@ font-size: 2.2rem;
     grid-row-start: 3;
     grid-column-start: 1;
     text-align: center;
-    padding: 3%;
+    padding: 6%;
     
 }
 #pagefonctionnement__button3{
@@ -150,7 +148,7 @@ font-size: 2.2rem;
     grid-row-start: 4;
     grid-column-start: 1;
     text-align: center;
-    padding: 3%;
+    padding: 6%;
 }
 .pagefonctionnement__buttonStyle{
     width: 107%;
@@ -158,9 +156,10 @@ font-size: 2.2rem;
     border-radius: 2rem;
     border: 0;
     color: black;
-    font-size: 160%;
+    font-size: 136%;
     padding: 2%;
     margin-left: -7%;
+   
 }
 .pagefonctionnement__buttonStyle--circle{
     grid-template-columns: 1;
@@ -171,7 +170,7 @@ font-size: 2.2rem;
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
-    padding-top: 16%;
+    padding-top: 38%;
 }
 #pagefonctionnement__buttonStyle--circle1{
     color: #fff;
@@ -182,7 +181,7 @@ font-size: 2.2rem;
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
-    padding-top: 9%;
+    padding-top: 38%;
 }
 
 
@@ -195,15 +194,15 @@ font-size: 2.2rem;
 /*SECTION:RESTAURANTS*/
 #pagerestaurants{
     display: grid;
-    grid-template-rows: 7% 21.5% 21.5% 21.5% 21.5%;
-    grid-template-columns: 100%;
+    grid-template-rows: 10% 45% 45%;
+    grid-template-columns: 50% 50%;
     background-color: #F6F6F6;
     margin-top: 12%;
     
 }
 
 #pagerestaurants__title{
-    grid-row-start: 1;
+    grid-row-start:1;
     grid-column-start: 1;
     margin: 0;
     background-color: #F6F6F6;
@@ -213,7 +212,7 @@ font-size: 2.2rem;
 }
 #pagerestaurants__title1{
     grid-row-start:1;
-    grid-column-start: 1;
+    grid-column-start: 2;
    margin:0; 
 }
 .pagerestaurants__grid{
@@ -257,9 +256,8 @@ font-size: 2.2rem;
 
 #pagerestaurants__div2
 {
-    grid-row-start:3;
-    grid-column-start: 1;
-    grid-column-start: 1;
+    grid-row-start:2;
+    grid-column-start: 2;
     background-color: white;
     width: 90%;
     height: 90%;
@@ -268,7 +266,7 @@ font-size: 2.2rem;
     position: relative;
 }
 #pagerestaurants__div3{
-    grid-row-start:4;
+    grid-row-start:3;
     grid-column-start: 1;
     background-color: white;
     width: 90%;
@@ -277,8 +275,8 @@ font-size: 2.2rem;
     border-radius: 5%;
 }
 #pagerestaurants__div4{
-    grid-row-start:5;
-    grid-column-start: 1;
+    grid-row-start:3;
+    grid-column-start: 2;
     background-color: white;
     width: 90%;
     height: 90%;

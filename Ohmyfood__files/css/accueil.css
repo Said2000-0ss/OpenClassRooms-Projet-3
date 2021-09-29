@@ -24,7 +24,7 @@ h2{
 
 #pageHead {
     display: grid;
-    grid-template-rows: 10% 9% 23% 22% 23%;
+    grid-template-rows: 12% 9% 32% 22% 23%;
   
 }
 #pageHead__logo {
@@ -100,9 +100,9 @@ background-color:#FFFFFF;
 /***********************/
 /*SECTION:FONCTIONNEMENT*/
 #pagefonctionnement{
-    margin-top: 0%;
+    margin-top: 10%;
     display: grid;
-    grid-template-rows: 27% 30% 30% 30%;
+    grid-template-rows: 15% 25% 25% 25%;
     grid-template-columns: 100%;
 }
 #pagefonctionnement__title{
@@ -160,7 +160,7 @@ font-size: 1.3rem;
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
-    padding-top:0;
+    padding-top: 19%;
 }
 #pagefonctionnement__buttonStyle--circle1{
     color: #fff;
@@ -171,7 +171,7 @@ font-size: 1.3rem;
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
-    padding-top: 0%;
+    padding-top: 25%;
 }
 
 
@@ -214,7 +214,7 @@ font-size: 1.3rem;
 .pagerestaurants__span{
   
     padding-left: 3%;
-    font-size: 1rem; 
+    font-size: 0.8rem;
     grid-column-start: 1;
 }
 .pagerestaurants__heart{
