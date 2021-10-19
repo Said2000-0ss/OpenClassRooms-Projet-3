@@ -7,9 +7,9 @@
 
 /*Header */
 #said{
-    display:grid;
+    display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 50% 45%;
     border: none;
 }
 h2{
@@ -31,7 +31,7 @@ h2{
     grid-row-start: 1;
     grid-column-start: 1;
     display: grid;
-    grid-template-rows: 14% 10% 28% 18% 19%;
+    grid-template-rows: 23% 10% 28% 18% 14%;
   
 }
 #pageHead__logo {
@@ -199,7 +199,7 @@ font-size: 2.2rem;
     grid-template-rows: 7% 21.5% 21.5% 21.5% 21.5%;
     grid-template-columns: 100%;
     background-color: #F6F6F6;
-    margin-top: 12%;
+    margin-top: -18%;
     
 }
 
@@ -314,12 +314,12 @@ font-size: 2.2rem;
     }
   
     #pageFooter__h2_title{
-        grid-row-start:1;
-        color:white; 
+        grid-row-start: 1;
+        color: white;
         font-family: Shrikhand;
-        font-family: Shrikhand;
-       
-        font-size: 0.9em;
+     
+        font-size: 1.7em;
+        letter-spacing: 0.03em;
     }
     #pageFooter__sentence1{
         grid-row-start:2;
