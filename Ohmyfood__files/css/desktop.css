@@ -379,20 +379,19 @@ background-color:#FFFFFF;
 }
 /*FOOTER*/
 #pageFooter{
-    display:grid;
-    grid-template-rows: 20% 20% 20% 20% 20%;
-    background-color:black;
+    display: grid;
+    grid-template-rows: 25% 20% 20% 20% 15%;
+    background-color: black;
     padding: 5%;
     
     }
   
     #pageFooter__h2_title{
-        grid-row-start:1;
-        color:white; 
+        grid-row-start: 1;
+        color: white;
         font-family: Shrikhand;
-        font-family: Shrikhand;
-       
-        font-size: 0.9em;
+        font-size: 1.9em;
+        letter-spacing: 0.03em;
     }
     #pageFooter__sentence1{
         grid-row-start:2;
@@ -400,7 +399,7 @@ background-color:#FFFFFF;
         margin-top: 1%;
     }
     .pageFooter--span{
-        padding-left: 4%;
+        padding-left: 2%;
         font-size: 0.8rem;
     }
     #pageFooter__sentence2{

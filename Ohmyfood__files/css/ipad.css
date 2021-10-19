@@ -10,6 +10,7 @@
     display:grid;
     grid-template-columns: 100%;
     grid-template-rows: 50% 50%;
+    border: none;
 }
 h2{
     margin:0;

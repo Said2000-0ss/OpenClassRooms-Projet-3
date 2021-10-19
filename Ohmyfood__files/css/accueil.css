@@ -13,7 +13,7 @@ h2{
 }
 #logo-header{
     width: 50%;
-  
+    padding-top: 0;
     text-align: center;
     margin: auto;
     margin-bottom: 0%;
@@ -295,12 +295,14 @@ font-size: 1.3rem;
     }
   
     #pageFooter__h2_title{
-        grid-row-start:1;
-        color:white; 
-        font-family: Shrikhand;
-        font-family: Shrikhand;
        
-        font-size: 0.9em;
+        grid-row-start: 1;
+        color: white;
+        font-family: Shrikhand;
+        
+        font-size: 1.1em;
+        letter-spacing: 0.04em;
+    }
     }
     #pageFooter__sentence1{
         grid-row-start:2;
