@@ -66,8 +66,10 @@
 
 /*Header */
 #said{
-    display:grid;
+    
+    display: grid;
     grid-template-columns: 50% 50%;
+    border: 4px solid #FF79DA;
 }
 
 h2{
@@ -78,8 +80,9 @@ h2{
     width: 82%;
     text-align: center;
     /* margin: auto; */
+    padding-top: 7%;
     margin-bottom: 0%;
-    padding-bottom: 28%;
+    padding-bottom: 21%;
     display: flex;
     padding-left: 48%;
  
@@ -90,6 +93,7 @@ h2{
     display: grid;
     display: grid;
     grid-template-rows: 20% 9% 25% 18% 26%;
+    background-color: #F6F6F6;
   
 }
 #pageHead__logo {
@@ -107,8 +111,11 @@ background-color:#FFFFFF;
     text-align: center;
     margin: auto;
     background-color: #eaeaea;
-    padding-top: 2%;
+    
     padding-bottom: 3%;
+    padding-top: 0%;
+    padding-bottom: 3%;
+    
 }
 #pageHead__text{
     padding-left: 2%;
@@ -181,6 +188,7 @@ background-color:#FFFFFF;
     margin: 0;
     padding-left: 7%;
     font-size: 2.4rem;
+   
 }
 #pagefonctionnement__button1{
     display: grid;
@@ -218,6 +226,7 @@ background-color:#FFFFFF;
     color: black;
     font-size: 136%;
     padding: 2%;
+    padding-left: 3%;
     margin-left: -7%;
     transition: background-color 1s;
 }
