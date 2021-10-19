@@ -348,6 +348,17 @@ grid-column-start: 2;
 border-radius: 1rem;
     margin: 1%;
 }
+.pageplats__div1:hover {
+    
+    animation-name: animSun;
+   
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    /*animation-iteration-count: infinite;*/
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
 .pageplats__h3{
 grid-column-start: 1;
 font-size: 1rem;
@@ -379,6 +390,17 @@ padding-left: 51%;
     border-radius: 1rem;
     margin: 1%;
 
+}
+.pageplats__div2:hover {
+    
+    animation-name: animSun;
+   
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    /*animation-iteration-count: infinite;*/
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 .pageplats__h3{
     grid-column-start: 1;
@@ -412,6 +434,17 @@ padding-left: 51%;
     border-radius: 1rem;
     margin: 1%;
 }
+.pageplats__div3:hover {
+    
+    animation-name: animSun;
+   
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    /*animation-iteration-count: infinite;*/
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
 .pageplats__h3{
     grid-column-start: 1;
     }
@@ -422,6 +455,63 @@ padding-left: 51%;
     .pageplats__span{
         grid-row-start:2;
     grid-column-start: 2;
+    }
+    .test1 {
+        grid-column-start: 3;
+        background-color: #32c671;
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        display: flex;
+        overflow: hidden;
+        height: 100%;
+    }
+    
+    #pageplats__container__col3 {
+        display:flex;
+        margin-left: 1%;
+       width: 100%;
+    }
+    
+    #pageplats__circle {
+        color: white;
+        margin:auto
+    
+    }
+    .pageplats__div1:hover>.test1>div>#pageplats__circle>i {
+        animation-name: animRotation;
+        animation-name: animRotation;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+        animation-fill-mode: forwards;
+    
+        /*animation-iteration-count: infinite;*/
+        animation-iteration-count: 1;
+    
+    }
+    .pageplats__div2:hover>.test1>div>#pageplats__circle>i {
+        animation-name: animRotation;
+        animation-name: animRotation;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+        animation-fill-mode: forwards;
+    
+        /*animation-iteration-count: infinite;*/
+        animation-iteration-count: 1;
+    
+    }
+    .pageplats__div3:hover>.test1>div>#pageplats__circle>i {
+        animation-name: animRotation;
+        animation-name: animRotation;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+        animation-fill-mode: forwards;
+    
+        /*animation-iteration-count: infinite;*/
+        animation-iteration-count: 1;
+    
     }
 
  /*****************************************************************/   
