@@ -34,6 +34,9 @@ h2{
     grid-template-rows: 23% 10% 28% 18% 14%;
   
 }
+#border {
+    border-bottom: none;
+}
 #pageHead__logo {
     padding-bottom: 5%;
 grid-row-start: 1;

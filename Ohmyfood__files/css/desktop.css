@@ -80,18 +80,23 @@ h2{
     width: 82%;
     text-align: center;
     /* margin: auto; */
-    padding-top: 7%;
+    padding-top:2%;
     margin-bottom: 0%;
     padding-bottom: 21%;
     display: flex;
     padding-left: 48%;
  
 }
-
+#border{
+    border-bottom:5px solid #FF79DA;
+    width: 99.5%;
+    position:absolute;
+    padding-top:9%;
+}
 #pageHead {
     grid-template-columns: 1;
     display: grid;
-    display: grid;
+   
     grid-template-rows: 20% 9% 25% 18% 26%;
     background-color: #F6F6F6;
   
