@@ -5,6 +5,65 @@
     font-family: "roboto",sans-serif;
     }
 
+    .demo {
+  
+  
+        position: relative;
+        text-align: justify;
+    }
+    .custom-loading-spinner {
+       /* cursor: progress;*/
+        position: relative ;
+        width: 100%;
+        height: 100%;
+       
+    }
+    .custom-loading-spinner::before {
+        content: "";
+        position: relative ;
+        width: 100%;
+        height: 100%;
+        z-index: 10001;
+        overflow: hidden;
+        background: #0b0b0b;
+        opacity: 0.6;
+        
+    }
+    .custom-loading-spinner::after {
+        box-sizing: border-box;
+        z-index: 10002;
+        content: "";
+        position: absolute;
+        top: 250px;
+        left: 50%;
+        margin: -25px 0 0 -25px;
+        border: 3px solid #f3f3f3;
+        border-top: 3px solid black ;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        animation: custom-loading 1s linear 3;
+        background: pink;
+        background: linear-gradient(
+    175deg, #FF79DA 10%, #9356DC 95%);
+        
+       
+        opacity:0;
+        
+        
+     
+       
+    }
+    @keyframes custom-loading {
+      
+        0% { transform: rotate(0deg); opacity:1;}
+        100% { transform: rotate(360deg);
+            opacity:1 }
+             
+             
+        
+    }
+
 /*Header */
 #said{
     display:grid;
@@ -165,17 +224,19 @@ background-color:#FFFFFF;
 .pagefonctionnement__buttonStyle:hover{
     
     background-color: #FF79DA;
+    transition: 1s;
 }
 .pagefonctionnement__buttonStyle--circle{
     grid-template-columns: 1;
     color: #fff;
     background-color: #9356dc;
     border: 1px solid #9356dc;
-    border-radius: 50%;
+    border-radius: 100%;
+    padding-top: 6px;
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
-    padding-top: 38%;
+    width: 27px;
 }
 #pagefonctionnement__buttonStyle--circle1{
     color: #fff;
@@ -184,9 +245,10 @@ background-color:#FFFFFF;
     border: 1px solid #9356dc;
     border-radius: 50%;
     margin-top: 10px;
+    width: 27px;
+    padding-top: 6px;
     margin-bottom: 10px;
     position: relative;
-    padding-top: 38%;
 }
 
 
