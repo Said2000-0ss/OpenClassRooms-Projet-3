@@ -270,7 +270,8 @@ grid-column-start: 2;
     margin: 0;
     margin-top: 0%;
     padding-top: 3%;
-    margin-left: 3%;
+    /* margin-left: 15px; */
+    padding-left: 15px;
     }
     .pageentrees__h4{
         grid-column-start: 1;
@@ -278,7 +279,8 @@ grid-column-start: 2;
         margin: 0;
         margin-top: 2%;
         margin-bottom: 5%;
-        margin-left: 4%;
+        /* margin-left: 4%; */
+        padding-left: 15px;
     
     }
     .pageentrees__span{
@@ -371,13 +373,14 @@ grid-column-start: 2;
     grid-template-rows: 24% 28% 28% 28%;
     background-color: #F6F6F6;
     padding-top: 5%;
+  
 }
 .pageplats__h2{
     grid-row-start: 1;
     grid-column-start: 1;
     height: 100%;
     margin: 0;
-    margin-top: 9%;
+    margin-top: 3%;
     font-size: 1rem;
     padding-left: 2%;
 }
@@ -386,7 +389,7 @@ grid-column-start: 2;
     grid-column-start: 1;
     width: 2.5rem;
     border-top: 3px solid #99e2d0;
-    margin: 3.1rem 0 0 2%;
+    margin: 3.4rem 0 0 2%;
 }
 .pageplats__div1{
     grid-row-start: 2;  
@@ -456,7 +459,8 @@ padding-left: 51%;
     margin: 0;
     margin-top: 0%;
     padding-top: 3%;
-    margin-left: 3%;
+    /* margin-left: 3%; */
+    padding-left: 15px;
     }
     .pageplats__h4{
         grid-column-start: 1;
@@ -464,7 +468,8 @@ padding-left: 51%;
         margin: 0;
         margin-top: 2%;
         margin-bottom: 5%;
-        margin-left: 4%;
+        margin-left: 0%;
+        padding-left: 15px;
     
     }
     .pageplats__span{
@@ -567,7 +572,7 @@ padding-left: 51%;
     display: grid;
     grid-template-rows: 19% 28% 28% 28%;
     background-color: #F6F6F6;
-    padding-top: 15%;
+    padding-top: 7%;
 }
 .pagedesserts__h2{
     grid-row-start: 1;
@@ -605,19 +610,23 @@ border-radius: 1rem;
     animation-fill-mode: forwards;
 }
 .pagedesserts__h3{
+
 grid-column-start: 1;
-font-size: 1rem;
+    font-size: 1rem;
     margin: 0;
-    margin-top: 6%;
-    margin-left: 3%;
+    margin-top: 0%;
+    padding-top: 3%;
+    /* margin-left: 15px; */
+    padding-left: 15px;
 }
 .pagedesserts__h4{
     grid-column-start: 1;
-    font-size: 0.8em;
+    font-size: 0.75em;
     margin: 0;
     margin-top: 2%;
     margin-bottom: 5%;
-    margin-left: 4%;
+    margin-left: 0%;
+    padding-left: 15px;
 
 }
 .pagedesserts__span{
@@ -709,7 +718,7 @@ padding-left: 51%;
         margin:auto
     
     }
-    .pagedesserts__div1:hover>.test1>div>#pagedesserts__circle>i {
+    .pagedesserts__div1:hover>.test2>div>#pagedesserts__circle>i {
         animation-name: animRotation;
         animation-name: animRotation;
         animation-duration: 1s;
@@ -721,7 +730,7 @@ padding-left: 51%;
         animation-iteration-count: 1;
     
     }
-    .pagedesserts__div2:hover>.test1>div>#pagedesserts__circle>i {
+    .pagedesserts__div2:hover>.test2>div>#pagedesserts__circle>i {
         animation-name: animRotation;
         animation-name: animRotation;
         animation-duration: 1s;
@@ -733,7 +742,7 @@ padding-left: 51%;
         animation-iteration-count: 1;
     
     }
-    .pagedesserts__div3:hover>.test1>div>#pagedesserts__circle>i {
+    .pagedesserts__div3:hover>.test2>div>#pagedesserts__circle>i {
         animation-name: animRotation;
         animation-name: animRotation;
         animation-duration: 1s;
@@ -765,7 +774,7 @@ padding-left: 51%;
     font-size: 88%;
     padding: 1%;
     background-color: #FF79DA;
-    margin-top: 15%;
+    margin-top: 7%;
     margin-bottom: 6%;
     position: relative;
  }
