@@ -10,7 +10,58 @@
   
         position: relative;
         text-align: justify;
+        animation-name:voile;
+        animation-duration: 4s;
+        animation-timing-function:linear ;
+        animation-delay: 0s;
+        animation-iteration-count: 1;  
+    
     }
+    @keyframes voile {
+        from {
+            background-color: grey;
+          
+            opacity:1;
+        }
+        to {
+          
+            opacity:0.3;
+        }
+    }
+    @-moz-keyframes voile { /* sur Firefox */
+        from {
+            background-color: grey;
+          
+            opacity:1;
+        }
+        to {
+          
+            opacity:0.3;
+        }
+    }
+    @-webkit-keyframes voile { /* sur Safari et Chrome */
+        from {
+            background-color: grey;
+          
+            opacity:1;
+        }
+        to {
+          
+            opacity:0.3;
+        }
+    }
+    @-o-keyframes voile { /* sur Opera */
+        from {
+            background-color: grey;
+          
+            opacity:1;
+        }
+        to {
+          
+            opacity:0.3;
+        }
+    }
+
     .custom-loading-spinner {
        /* cursor: progress;*/
         position: relative ;
@@ -64,6 +115,7 @@
              
         
     }
+  
 
 /*Header */
 #said{
