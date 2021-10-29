@@ -1,0 +1,48 @@
+#animation{
+              
+    animation-name:fadein;
+    animation-duration: 4s;
+    animation-timing-function:linear ;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+}
+@keyframes fadein {
+    from {
+        margin-top:-3%;
+        opacity:0;
+    }
+    to {
+       margin-top: -0%;
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* sur Firefox */
+    from {
+        margin-top:2%;
+        opacity:0.5;
+    }
+    to {
+        margin-top:4%;
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* sur Safari et Chrome */
+    from {
+        margin-top:2%;
+        opacity:0.5;
+    }
+    to {
+        margin-top:4%;
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* sur Opera */
+    from {
+        margin-top:2%;
+        opacity:0.5;
+    }
+    to {
+        margin-top:4%;
+        opacity:1;
+    }
+}
