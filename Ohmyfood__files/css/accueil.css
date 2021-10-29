@@ -3,7 +3,9 @@
 *{
     /* THE FONT IS RALEWAY. */
     font-family: "roboto",sans-serif;
+   
     }
+  
 
 /*Header */
 
@@ -330,3 +332,11 @@ font-size: 1.3rem;
         font-size: 0.8rem;
         margin-top: 1%;
     }
+
+    /* #pageFooter__h2--2>a{
+       color:white;
+       text-decoration: none;
+    } */
+a{
+    text-decoration: none;
+}

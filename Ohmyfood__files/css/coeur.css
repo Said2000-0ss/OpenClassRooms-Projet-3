@@ -1,4 +1,4 @@
-.fa-heart::before {
+/* .fa-heart::before {
     content: "\f004";
     transition: color 1s ease-out;
 }
@@ -10,4 +10,85 @@
 .fa-heart:hover::before {
     color: #9356DC;
     cursor: pointer;
-}
+} */
+
+input{
+    /* margin-left:1000%; */
+    display:none;
+  }
+  #coeur{
+    
+  }
+  
+  input:checked + label {
+     color: red;
+   }
+  
+  .heart-container {
+     position: relative;
+     width: 40px;
+     height: 40px;
+  }
+  
+  .heart-clip {
+     display: block;
+     width: 100%;
+     height: 100%;
+     position: relative;
+     overflow: hidden;
+     clip-path: url(#svgPath);
+  }
+     .heart-clip:hover {
+    
+        animation: pulse 0.6s 0.3s infinite;
+      }
+        .heart-clip:hover::before {
+           transform: scale(1);
+           opacity: 1;
+        }
+   
+     .heart-clip::before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+       
+        background: linear-gradient(
+  175deg, #FF79DA 10%, #9356DC 95%);
+     
+        opacity: 0;
+        transform: scale(1);
+        transition: transform 0.2s linear, opacity 0.2s linear;
+        transform-origin: center 60%;
+     }
+     .heart-clip.active {
+        animation: pulse 0.6s 0.3s forwards;
+     }
+  
+  
+  .heart-stroke {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     /*fill: #d32f2f;*/
+     /*fill:black;*/
+    
+  }
+  
+  @keyframes pulse {
+     0% {
+        transform: scale(1);
+     }
+  
+     30% {
+        transform: scale(1);
+     }
+  
+     60% {
+        transform: scale(1);
+     }
+  }
+  
