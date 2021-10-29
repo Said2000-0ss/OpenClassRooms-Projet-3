@@ -1,0 +1,44 @@
+#pageFooter{
+    display: grid;
+    grid-template-rows: 33% 18% 18% 12% 12%;
+    background-color: black;
+    
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-bottom: 3%;
+    
+    }
+  
+    #pageFooter__h2_title{
+        grid-row-start: 1;
+        color: white;
+        font-family: Shrikhand;
+        font-size: 1.9em;
+        letter-spacing: 0.03em;
+    }
+    #pageFooter__sentence1{
+        grid-row-start:2;
+        color:white;
+        margin-top: 1%;
+    }
+    .pageFooter--span {
+        padding-left: 2%;
+        font-size: 1rem;
+    }
+    #pageFooter__sentence2{
+        grid-row-start:3;
+        color:white;
+        margin-top: 1%;
+    }
+    #pageFooter__h2--1{
+        grid-row-start: 4;
+        color: white;
+        font-size: 0.9rem;
+        margin-top: 1%;
+    }
+    #pageFooter__h2--2{
+        grid-row-start: 5;
+    color: white;
+    font-size: 0.8rem;
+    margin-top: 2%;
+    }
