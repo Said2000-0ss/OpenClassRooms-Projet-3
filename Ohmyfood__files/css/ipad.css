@@ -6,12 +6,13 @@
     }
 
 /*Header */
-#said{
+#container{
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 50% 45%;
     border: none;
 }
+
 h2{
     margin:0;
     
@@ -64,9 +65,10 @@ background-color:#FFFFFF;
     grid-row-start: 3;
     text-align: center;
     margin: auto;
-    margin-top: -1%;
+    /* margin-top: -1%; */
+    width: 100%;
     overflow: hidden;
-    padding: 7%;
+    /* padding: 7%; */
     background-color: #F6F6F6;
     font-size: 2.5rem;
 }
@@ -120,6 +122,7 @@ background-color:#FFFFFF;
     grid-template-columns: 100%;
     margin-top: 0%;
     padding-top: 0%;
+    border:0;
 }
 #pagefonctionnement__title{
   
@@ -242,7 +245,7 @@ font-size: 2.2rem;
     grid-row-start: 1;
     grid-column-start: 2;
     padding-left: 65%;
-    padding-top: 4px;
+    padding-top: 10px;
 }
 #pagerestaurants__div1{
     grid-row-start:2;

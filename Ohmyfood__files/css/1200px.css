@@ -1,0 +1,7 @@
+#pageHead {
+    grid-template-columns: 1;
+    display: grid;
+    grid-template-rows: 20% 11% 25% 18% 26%;
+    /* grid-template-rows: 20% 9% 25% 18% 26%; */
+    background-color: #F6F6F6;
+}

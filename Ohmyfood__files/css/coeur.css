@@ -1,16 +1,16 @@
-/* .fa-heart::before {
+.coeur1::before {
     content: "\f004";
     transition: color 1s ease-out;
 }
 
-.fa-heart:hover {
+.coeur1:hover {
     font-weight: bold;
 }
 
-.fa-heart:hover::before {
+.coeur1:hover::before {
     color: #9356DC;
     cursor: pointer;
-} */
+}
 
 input{
     /* margin-left:1000%; */

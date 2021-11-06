@@ -1,0 +1,230 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap'); */
+
+* {
+    /* THE FONT IS RALEWAY. */
+    /* font-family: "roboto",sans-serif; */
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+.logo-header{
+    width: 25%;
+    text-align:center;
+margin:auto;
+display:flex;
+} */
+
+.fa {
+    font-size: 50em;
+}
+
+.pageHead__div1 {
+    grid-row-start: 1;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 56%;
+}
+
+.pageHead__div1--a {
+    grid-column-start: 1;
+   
+    padding-top: 24%;
+    padding-left: 35%;
+    color: black;
+}
+
+.pageHead__div1--logo {
+    grid-column-start: 2;
+    width: 60%;
+    padding-left: 7%;
+    padding-top: 2%;
+}
+
+.pageHead__div2 {
+    grid-row-start: 2;
+    margin-top: 3%;
+}
+
+.pageHead__div2--picture {
+    width: 100%;
+    height: 130%;
+}
+
+/********************************************************SECTION*****************************************/
+
+section {
+   
+        background-color: rgb(230, 227, 227);
+        border-top-left-radius: 48px;
+        border-top-right-radius: 48px;
+        position: relative;
+        margin-top: -14%;
+        padding-left: 3%;
+    padding-right: 2%;
+   
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    padding-top: 2%;
+}
+
+h1 {
+    grid-column-start: 1;
+    margin-left: 2%;
+    padding-top: 3%;
+    margin-bottom: 3%;
+    font-family: Shrikhand, sans-serif;
+}
+
+#container>#coeur {
+    grid-column-start: 2;
+    padding-top: 0%;
+    margin-left: -42%;
+    margin-top: -26%;
+}
+
+.title {
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+.title--underline {
+    width: 2.5rem;
+    border-top: 3px solid #99e2d0;
+    margin: 0.2rem 0 0 2%;
+}
+
+.Etiquette {
+    height: 80px;
+    margin: 2%;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+}
+
+.blanche {
+    height: 80px;
+    width: 100%;
+}
+
+.Etiquette:hover>.blanche {
+    height: 80px;
+    width: 80%;
+    transition: 1s;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.blanche>.ingredients {
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.blanche>h3 {
+    padding-top: 15px;
+    padding-left: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-bottom: 7px;
+    font-family: "roboto", sans-serif;
+}
+
+.blanche>.price {
+    display: flex;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    margin-top: -18px;
+    font-weight: bold;
+}
+
+.verte {
+    height: 80px;
+    width: 0%;
+    background-color: green;
+    overflow: hidden;
+}
+
+.Etiquette:hover>.verte {
+    height: 80px;
+    width: 20%;
+    background-color: #99e2d0;
+    transition: 1s;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.Etiquette:hover>.verte>.containerI {
+    animation-name: animRotation;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+.containerI {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    color: white;
+}
+
+@keyframes animRotation {
+    0% {
+        transform: rotate(180deg);
+    }
+    10% {
+        transform: rotate(170deg);
+    }
+    20% {}
+    30% {
+        transform: rotate(90deg);
+    }
+    75% {}
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+button {
+    width: 55%;
+    height: 29%;
+    border-radius: 2rem;
+    border: 0;
+    color: white;
+    font-size: 88%;
+    padding: 1%;
+    font-weight: bold;
+    background-color: #FF79DA;
+}
+
+#button_style {
+    display: flex;
+ 
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 7%;
+}
+
+button:hover {
+    background-color: rgb(255, 0, 140);
+    transition: 1s;
+}
+
+#pageFooter__h2_title {
+    grid-row-start: 1;
+    color: white;
+    font-family: Shrikhand;
+    font-size: 1.4em;
+    letter-spacing: 0.03em;
+}

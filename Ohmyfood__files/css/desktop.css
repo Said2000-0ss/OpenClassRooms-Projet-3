@@ -131,7 +131,7 @@ h2 {
 
 #border {
     border-bottom: 7px solid #eaeaea;
-    width: 99.5%;
+    width: 99%;
     position: absolute;
     padding-top: 9%;
 }
@@ -139,7 +139,8 @@ h2 {
 #pageHead {
     grid-template-columns: 1;
     display: grid;
-    grid-template-rows: 20% 9% 25% 18% 26%;
+    grid-template-rows: 21% 10% 25% 18% 26%;
+    /* grid-template-rows: 20% 9% 25% 18% 26%; */
     background-color: #F6F6F6;
 }
 
@@ -170,14 +171,27 @@ h2 {
 }
 
 #pageHead__title {
-    grid-row-start: 3;
+    /* grid-row-start: 3;
     text-align: center;
     margin: auto;
     margin-top: -1%;
     overflow: hidden;
     padding: 7%;
     background-color: #F6F6F6;
-    font-size: 2.5rem;
+    font-size: 2.5rem; */
+
+    grid-row-start: 3;
+    text-align: center;
+    margin: auto;
+    width: 101%;
+    padding-bottom: 2%;
+    /* margin-top: -1%; */
+    overflow: hidden;
+    /* padding: 7%; */
+    padding-top: 2%;
+    /* padding-left: 1%; */
+    background-color: white;
+    font-size: 1.8rem;
 }
 
 #pageHead__texte {
@@ -319,11 +333,18 @@ h2 {
 /*SECTION:RESTAURANTS*/
 
 #pagerestaurants {
+    /* display: grid;
+    grid-template-rows: 10% 45% 45%;
+    grid-template-columns: 50% 50%;
+    background-color: #F6F6F6;
+    margin-top: 7%; */
+
     display: grid;
     grid-template-rows: 10% 45% 45%;
     grid-template-columns: 50% 50%;
     background-color: #F6F6F6;
-    margin-top: 7%;
+    margin-top: 4%;
+    padding-bottom: 2%;
 }
 
 #pagerestaurants__title {
@@ -478,4 +499,7 @@ h2 {
     color: white;
     font-size: 0.8rem;
     margin-top: 1%;
+}
+#pageFooter>a{
+    text-decoration: none;
 }
